@@ -9,14 +9,11 @@
 (function(){
   var initial = "# Your Name\n" +
     "# 8/15/20**\n" +
-    "# Countdown\n" +
-    "print(&quot;Five...&quot;)\n" +
-    "print(&quot;Four...&quot;)\n" +
-    "print(&quot;Three...&quot;)\n" +
-    "print(&quot;Two...&quot;)\n" +
-    "print(&quot;One...&quot;)\n" +
-    "print(&quot;Blastoff!&quot;)\n" +
-    "input(&quot;\n\nPress the enter key to exit&quot;)";
+    "# Create the flock of birds found at https://code.redhawks.us/flock.png\n" +
+    "print(&quot;{:&gt;25}&quot;.format(&quot;/^v^\\&quot;))\n" +
+    "print(&quot;{:&gt;13}{:&gt;27}&quot;.format(&quot;/^v^\\&quot;,&quot;/^v^\\&quot;))\n" +
+    "print(&quot;{:&gt;22}&quot;.format(&quot;/^v^\\\n&quot;))\n" +
+    "print(&quot;{:&gt;8}&quot;.format(&quot;/^v^\\&quot;))";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
