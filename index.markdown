@@ -12,7 +12,7 @@
     "# Create the flock of birds found at https://code.redhawks.us/flock.png\n" +
     "print(&quot;{:&gt;25}&quot;.format(&quot;/^v^\\&quot;))\n" +
     "print(&quot;{:&gt;13}{:&gt;27}&quot;.format(&quot;/^v^\\&quot;,&quot;/^v^\\&quot;))\n" +
-    "print(&quot;{:&gt;22}&quot;.format(&quot;/^v^\\\n&quot;))\n" +
+    "print(&quot;{:&gt;22}&quot;.format(&quot;/^v^\\&quot;))\n" +
     "print(&quot;{:&gt;8}&quot;.format(&quot;/^v^\\&quot;))";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
